@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a192f;   /* biru laut sangat gelap */
+    color: #e6f1ff;              /* teks terang agar kontras */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 40px auto;
+    background: #112240;        /* biru gelap sedikit lebih terang */
+    padding: 20px;
+    border: 5px solid #00b4d8;  /* aksen biru laut cerah */
+}
+
+h1, h2{
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #64ffda; /* biru tosca terang */
+}
+
+h2{
+    margin-top: 30px;
+    color: #00b4d8; /* biru laut cerah */
+}
+
+ul, ol{
+    margin-left: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #0f3057; /* biru gelap */
+}
+
+table, th, td{
+    border: 2px solid #00b4d8;
+}
+
+th{
+    background-color: #00b4d8;
+    color: #0a192f;
+}
+
+th, td{
+    padding: 8px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #64ffda;
+}
